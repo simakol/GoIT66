@@ -152,13 +152,14 @@ const cars = [
 // Нехай функція makeCarsWithDiscount повертає новий масив об'єктів із змінним значенням властивості price залежно від переданої знижки.
 
 // const makeCarsWithDiscount = (cars, discount) =>
-//   cars.map((car) => {
-//     car.price -= car.price * discount;
-//     return car;
-//   });
+//   cars.map((car) => ({ ...car, price: car.price * (1 - discount) }));
+
+// console.table(cars);
 
 // console.table(makeCarsWithDiscount(cars, 0.2));
 // console.table(makeCarsWithDiscount(cars, 0.4));
+
+// console.table(cars);
 
 //* Example 3 - Метод filter
 // Нехай функція filterByPrice повертає масив автомобілів ціна яких менша ніж значення параметра threshold.
