@@ -1,0 +1,114 @@
+/* .text {
+  font-family: sans-serif;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.text.active {
+  background-color: grey;
+}
+
+.block {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 15px;
+}
+
+a[href="https://google.com"]
+{
+  font-size: 30px;
+  color: red;
+} */
+
+/* .container .text:last-child {
+  color: blue;
+} */
+
+/* body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 32px;
+} */
+
+/* ======================================== */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  height: 100vh;
+  padding-top: 50px;
+  position: relative;
+}
+
+body.open {
+  overflow-y: hidden;
+}
+
+body.open > .modal-window,
+body.open > .overlay {
+  display: block;
+}
+
+.theme {
+  color: lime;
+  background-color: #000;
+  border: 3px solid lime;
+  border-radius: 15px;
+}
+
+.open-modal-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 15px;
+  font-size: 50px;
+  cursor: pointer;
+  outline: none;
+}
+
+.modal-window {
+  font-size: 70px;
+  padding: 100px 90px;
+  text-transform: uppercase;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  display: none;
+}
+
+.close-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: lime;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 25px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
