@@ -63,15 +63,15 @@
 // ];
 
 // // 1. приймаємо обʼєкт та колбек функцію
-// // 2. створити поле айді у обʼєкта
+// // 2. створення нового обʼєкту і додавання властивості айді
 // // 3. виклик колбек функції та передача обʼєкту як аргументу
 
 // function createProduct(obj, callback) {
 //   //   let callback = function logProduct(product) {
 //   //     console.log(product);
 //   //   };
-//   obj.id = Date.now();
-//   callback(obj);
+//   const newObj = { ...obj, id: Date.now() };
+//   callback(newObj);
 // }
 
 // function logProduct(product) {
