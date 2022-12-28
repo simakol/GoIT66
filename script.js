@@ -187,7 +187,7 @@ const cars = [
 // Нехай функція sortByAscendingAmount повертає новий масив автомобілів відсортований за зростанням значення якості amount.
 
 // const sortByAscendingAmount = (cars) =>
-//   cars.sort((a, b) => a.amount - b.amount);
+//   [...cars].sort((a, b) => a.amount - b.amount);
 
 // console.table(sortByAscendingAmount(cars));
 
@@ -195,7 +195,7 @@ const cars = [
 // Нехай функція sortByModel повертає новий масив автомобілів відсортований за назвою моделі в алфавітному та зворотному алфавітному порядку, в залежності від значення параметра order.
 
 // const sortByModel = (cars, order) =>
-//   cars.sort((a, b) => {
+//   [...cars].sort((a, b) => {
 //     switch (order) {
 //       case "asc":
 //         return a.modcar.localeCompare(b.modcar);
