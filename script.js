@@ -102,8 +102,8 @@ foo.count++;
 //     const newContact = {
 //       list: "default",
 //       ...contact,
-//       id: phonebook.generateId(),
-//       createdAt: phonebook.getDate(),
+//       id: this.generateId(),
+//       createdAt: this.getDate(),
 //     };
 //     this.contacts.push(newContact);
 //     return this.contacts;
