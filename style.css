@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 1000vh;
+  font-family: sans-serif;
+}
+
+.counter {
+  position: sticky;
+  top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  margin: 10px;
+  font-size: 24px;
+  padding: 10px 15px;
+  border: 3px solid orange;
+  border-radius: 8px;
+}
+
+.input {
+  margin: 30px;
+  display: inline-block;
+}
+
+form {
+  width: 200px;
+  margin-left: 50px;
+  text-align: center;
+}
+
+fieldset {
+  border-radius: 10px;
+  border-color: orange;
+  background-color: rgba(0, 0, 0, 0.239);
+}
+
+form label {
+  display: block;
+  margin: 10px;
+}
+
+form label input {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  outline: none;
+  padding: 5px;
+  border-color: orange;
+  margin-top: 10px;
+}
+
+.wrong {
+  border-color: red;
+}
+
+.correct {
+  border-color: green;
+}
