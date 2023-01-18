@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+  height: 200vh;
+}
+
+p {
+  font-size: 50px;
+}
+
+button {
+  background-color: rgb(214, 92, 92);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+#continueBtn {
+  background-color: rgb(82, 210, 99);
+}
+
+#continueBtn:disabled {
+  background-color: #c1c1c1;
+}
