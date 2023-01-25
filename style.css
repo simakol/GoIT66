@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+}
+
+input {
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-size: 30px;
+  border: 2px solid black;
+}
+
+input[type="submit"] {
+  background-color: rgb(25, 123, 221);
+  color: white;
+  cursor: pointer;
+}
+
+#articlesWrapper {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.article-card {
+  width: 30%;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #c1c1c1;
+  padding: 20px;
+}
+
+.article-img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.article-link {
+  text-transform: uppercase;
+  border-radius: 15px;
+  display: inline-block;
+  text-decoration: none;
+  background-color: rgba(45, 45, 233, 0.731);
+  color: white;
+  padding: 10px 20px;
+}
