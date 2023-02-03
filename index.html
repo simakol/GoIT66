@@ -3,11 +3,20 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>GoIT66</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API, REST, HTTP</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <script src="script.js"></script>
+    <form id="form">
+        <input type="text" name="news" placeholder="Search news">
+        <input type="submit" value="Search">
+    </form>
+    <div id="articlesWrapper"></div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="scripts/script.js" type="module"></script>
 </body>
 
 </html>
